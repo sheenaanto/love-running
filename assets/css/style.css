@@ -170,8 +170,17 @@ main {
   border: 2px solid white;
 }
 /* Overriding the header color for h3 whis is set in general rules */
-#times div h3 {
+#times h3 {
   color: #fafafa;
+}
+
+/* Gallery Page*/
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
+#photos {
+  line-height: 0;
 }
 
 /* Footer */
