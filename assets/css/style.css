@@ -24,6 +24,9 @@ h3 {
   letter-spacing: 2px;
   color: #252525;
 }
+.hidden-heading {
+  display: none;
+}
 
 /* Header */
 header {
@@ -163,6 +166,7 @@ main {
   /* This will not wrap on screens of less than 400px wide .Each div will expandto fill the available space on it row */
   flex-basis: 200px;
   flex-grow: 1;
+  /* create a div of meet up time divs over the background image */
   border: 2px solid white;
 }
 /* Overriding the header color for h3 whis is set in general rules */
